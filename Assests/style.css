@@ -1,3 +1,80 @@
-h1 {
-    color:blue
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #88B888;
+    --secondary: #80AD80;
+    --tertiary: #709C70;
+    --dark: #606060;
+    --light: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: var(--secondary);
+    background-color: var(--primary);
+    line-height: 1.2;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+/* Hero Parallax */
+.hero-parallax {
+    height: 70vh;
+    width: 100%;
+    background-image: url('...');
+    background-position: center;
+    background-size: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-attachment: fixed;
+}
+
+/* Main */
+main {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Sections */
+
+/* APIs */
+
+/* Images */
+
+/* Footer */
+footer {
+    padding: 20px;
+    clear: both;
+    font-family: sans-serif;
+    text-align: center;
+    background: var(--light);
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 1.0em;
+}
+
+/* Responsive Elements */
+@media screen and (max-width: 980px) {
+
+}
+  
+@media screen and (max-width: 768px) {
+
 }
