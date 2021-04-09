@@ -17,8 +17,8 @@ html, body {
     height:100%;
     width: 100%;
     font-family: sans-serif;
-    color: var(--secondary);
-    background-color: var(--primary);
+    color: var(--primary);
+    background-color: var(--light);
     line-height: 1.2;
     scroll-behavior: smooth;
 }
